@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		8552FDA91C775C1300E8950A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8552FDA81C775C1300E8950A /* AppDelegate.swift */; };
-		8552FDAB1C775C1300E8950A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8552FDAA1C775C1300E8950A /* ViewController.swift */; };
+		8552FDAB1C775C1300E8950A /* InscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8552FDAA1C775C1300E8950A /* InscriptionViewController.swift */; };
 		8552FDAE1C775C1300E8950A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8552FDAC1C775C1300E8950A /* Main.storyboard */; };
 		8552FDB01C775C1300E8950A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8552FDAF1C775C1300E8950A /* Assets.xcassets */; };
 		8552FDB31C775C1300E8950A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8552FDB11C775C1300E8950A /* LaunchScreen.storyboard */; };
 		8552FDBE1C775C1300E8950A /* PositionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8552FDBD1C775C1300E8950A /* PositionsTests.swift */; };
 		8552FDC91C775C1300E8950A /* PositionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8552FDC81C775C1300E8950A /* PositionsUITests.swift */; };
+		858600A11C97228700F148EE /* ConnexionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858600A01C97228700F148EE /* ConnexionViewController.swift */; };
+		858600A31C9722CE00F148EE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858600A21C9722CE00F148EE /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +38,8 @@
 /* Begin PBXFileReference section */
 		8552FDA51C775C1300E8950A /* Positions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Positions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8552FDA81C775C1300E8950A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8552FDAA1C775C1300E8950A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8552FDAD1C775C1300E8950A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8552FDAA1C775C1300E8950A /* InscriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InscriptionViewController.swift; sourceTree = "<group>"; };
+		8552FDAD1C775C1300E8950A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; lineEnding = 1; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8552FDAF1C775C1300E8950A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8552FDB21C775C1300E8950A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8552FDB41C775C1300E8950A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		8552FDC41C775C1300E8950A /* PositionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PositionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8552FDC81C775C1300E8950A /* PositionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionsUITests.swift; sourceTree = "<group>"; };
 		8552FDCA1C775C1300E8950A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		858600A01C97228700F148EE /* ConnexionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnexionViewController.swift; sourceTree = "<group>"; };
+		858600A21C9722CE00F148EE /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				8552FDA81C775C1300E8950A /* AppDelegate.swift */,
-				8552FDAA1C775C1300E8950A /* ViewController.swift */,
+				8552FDAA1C775C1300E8950A /* InscriptionViewController.swift */,
 				8552FDAC1C775C1300E8950A /* Main.storyboard */,
+				858600A21C9722CE00F148EE /* MapViewController.swift */,
+				858600A01C97228700F148EE /* ConnexionViewController.swift */,
 				8552FDAF1C775C1300E8950A /* Assets.xcassets */,
 				8552FDB11C775C1300E8950A /* LaunchScreen.storyboard */,
 				8552FDB41C775C1300E8950A /* Info.plist */,
@@ -193,7 +199,7 @@
 				TargetAttributes = {
 					8552FDA41C775C1300E8950A = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = TW536N94VJ;
+						DevelopmentTeam = 99E454K2RT;
 					};
 					8552FDB81C775C1300E8950A = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8552FDAB1C775C1300E8950A /* ViewController.swift in Sources */,
+				858600A11C97228700F148EE /* ConnexionViewController.swift in Sources */,
+				8552FDAB1C775C1300E8950A /* InscriptionViewController.swift in Sources */,
 				8552FDA91C775C1300E8950A /* AppDelegate.swift in Sources */,
+				858600A31C9722CE00F148EE /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,9 +410,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Positions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xue.Positions;
+				PRODUCT_BUNDLE_IDENTIFIER = xue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -413,9 +422,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Positions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xue.Positions;
+				PRODUCT_BUNDLE_IDENTIFIER = xue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -487,6 +497,7 @@
 				8552FDCF1C775C1300E8950A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8552FDD01C775C1300E8950A /* Build configuration list for PBXNativeTarget "PositionsTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +506,7 @@
 				8552FDD21C775C1300E8950A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8552FDD31C775C1300E8950A /* Build configuration list for PBXNativeTarget "PositionsUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +515,7 @@
 				8552FDD51C775C1300E8950A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
